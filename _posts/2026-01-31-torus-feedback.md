@@ -41,3 +41,5 @@ The resulting dynamics are chaotic.
 At low particle speeds, motion is dominated by local two-dimensional structures. As particle speed increases, these local structures weaken and coherent global behaviour emerges in the form of three-dimensional super-structures.
 
 By extension, if the system were embedded on a higher-dimensional torus, further increases in speed would be expected to produce higher-dimensional coherent structures.
+
+One particle is marked blue to demonstrate the behaviours.
