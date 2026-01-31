@@ -50,7 +50,7 @@ Temperature responds logarithmically to deviations from a baseline carbon level,
 
 The model exhibits strongly non-linear dynamics.
 
-Wider photosynthetic tolerance ranges $$\sigma$$ substantially dampen temperature excursions, while lower optimal photosynthesis temperatures $$( T_{\mathrm{opt}} ) \$$ reduce long-term warming. These stabilising effects arise without explicit control mechanisms and emerge purely from accumulation and feedback.
+Wider photosynthetic tolerance ranges $$\sigma$$ substantially dampen temperature excursions, while lower optimal photosynthesis temperatures $$( T_{\mathrm{opt}})$$ reduce long-term warming. These stabilising effects arise without explicit control mechanisms and emerge purely from accumulation and feedback.
 
 Increasing temperature sensitivity does not significantly alter the eventual temperature range. Instead, it increases the rate at which the system cycles between temperature states, suggesting that external processes which amplify climate sensitivity may primarily affect **system volatility rather than equilibrium temperature**.
 
