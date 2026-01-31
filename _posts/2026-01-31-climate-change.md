@@ -11,7 +11,7 @@ This post explores a climate change from first principles.
   <iframe
    src="https://editor.p5js.org/GeneralRaspberry/full/VR1475f0O"
     width="100%"
-    height="480"
+    height="1000"
     style="border: 1px solid #ddd; border-radius: 8px;"
     loading="lazy"
   ></iframe>
