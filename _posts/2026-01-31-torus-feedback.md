@@ -10,7 +10,7 @@ This post explores a minimal system where particles locally rotate a flow field.
   <iframe
     src="https://editor.p5js.org/GeneralRaspberry/full/2jODsztoC"
     width="100%"
-    height="440"
+    height="500"
     style="border: 1px solid #ddd; border-radius: 8px;"
     loading="lazy"
   ></iframe>
