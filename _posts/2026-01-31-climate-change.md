@@ -36,9 +36,9 @@ An initial flux-based formulation produced largely linear behaviour and failed t
 
 ## Model structure
 
-Photosynthesis is modelled as a temperature-dependent process with an optimal temperature $$ T_{\mathrm{opt}} \$$, represented by a Gaussian response curve. The parameter $$ \sigma \$$ controls the breadth of this response and reflects how tightly plant productivity is tuned to its optimum.
+Photosynthesis is modelled as a temperature-dependent process with an optimal temperature $$T_{\mathrm{opt}}$$, represented by a Gaussian response curve. The parameter $$\sigma$$ controls the breadth of this response and reflects how tightly plant productivity is tuned to its optimum.
 
-Respiration is modelled relative to temperature using a $$ Q_{10} \$$-type relationship. In this formulation, respiration acts as a **metabolic burn rate**: higher respiration increases carbon release while simultaneously reducing the system’s capacity to sustain photosynthesis.
+Respiration is modelled relative to temperature using a $$Q_{10}$$-type relationship. In this formulation, respiration acts as a **metabolic burn rate**: higher respiration increases carbon release while simultaneously reducing the system’s capacity to sustain photosynthesis.
 
 Net ecosystem production (NEP) is defined as the balance between respiration and photosynthesis. Rather than treating NEP as an instantaneous flux, it is accumulated over time to represent atmospheric carbon stock.
 
@@ -50,7 +50,7 @@ Temperature responds logarithmically to deviations from a baseline carbon level,
 
 The model exhibits strongly non-linear dynamics.
 
-Wider photosynthetic tolerance ranges $$\sigma$$ substantially dampen temperature excursions, while lower optimal photosynthesis temperatures $$( T_{\mathrm{opt}} \$$ reduce long-term warming. These stabilising effects arise without explicit control mechanisms and emerge purely from accumulation and feedback.
+Wider photosynthetic tolerance ranges $$\sigma$$ substantially dampen temperature excursions, while lower optimal photosynthesis temperatures $$( T_{\mathrm{opt}} )\$$ reduce long-term warming. These stabilising effects arise without explicit control mechanisms and emerge purely from accumulation and feedback.
 
 Increasing temperature sensitivity does not significantly alter the eventual temperature range. Instead, it increases the rate at which the system cycles between temperature states, suggesting that external processes which amplify climate sensitivity may primarily affect **system volatility rather than equilibrium temperature**.
 
