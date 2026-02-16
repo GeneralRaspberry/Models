@@ -11,3 +11,5 @@ Exploring density-dependent versus frequency-dependent transmission by varying s
 Incorporating heterogeneous contact patterns to examine superspreading behavior.
 
 The broader aim is to investigate how complex population-level outcomes arise from simple agent rules.
+
+This project forms part of a broader exploration into how population-level dynamics emerge from individual behavioral rules, with applications spanning epidemiology, complex adaptive systems, and decision-support modelling.
