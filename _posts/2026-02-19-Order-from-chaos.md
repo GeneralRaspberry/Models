@@ -10,7 +10,7 @@ This post explores order from chaos with a simple cellular automata rule.
 <div style="margin: 2rem 0; width: 100%;">
   <iframe src="https://editor.p5js.org/GeneralRaspberry/full/v55UVH6r6"
     width="100%"
-    height="800"
+    height="900"
     style="border: 1px solid #ddd; 
     border-radius: 8px;"
     loading="lazy"></iframe>
