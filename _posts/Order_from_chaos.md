@@ -53,72 +53,16 @@ Equilibrium in the system is not static. Instead, it is dynamically maintained. 
 
 Formally, the model can be described as a discrete-time dynamical system:
 
-𝑠
-𝑡
-+
-1
-(
-𝑖
-)
-=
-𝐹
-(
-𝑠
-𝑡
-(
-𝑖
-)
-,
-𝑁
-𝑡
-(
-𝑖
-)
-)
-s
-t+1
-	​
-
-(i)=F(s
-t
-	​
-
-(i),N
-t
-	​
-
-(i))
+$$
+s_{t+1}(i) = F\big(s_t(i), N_t(i)\big)
+$$
 
 where:
 
-𝑠
-𝑡
-(
-𝑖
-)
-s
-t
-	​
+- $s_t(i)$ is the reinforcement state of cell $i$ at time $t$,
+- $N_t(i)$ is the number of active neighbours,
+- $F$ is a nonlinear local update rule incorporating activation, reinforcement, and decay.
 
-(i) is the reinforcement state of cell 
-𝑖
-i at time 
-𝑡
-t,
-
-𝑁
-𝑡
-(
-𝑖
-)
-N
-t
-	​
-
-(i) is the number of active neighbours,
-
-𝐹
-F is a nonlinear local update rule incorporating activation, reinforcement, and decay.
 
 The introduction of reinforcement (a bounded increasing state variable) creates hysteresis in the system — meaning future states depend not only on current neighbourhood configuration, but also on accumulated past interactions. This transforms the automaton from a purely dissipative system into one capable of storing structured information over time.
 
