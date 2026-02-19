@@ -33,6 +33,15 @@ Overcrowding or isolation causes decay.
 
 User clicks introduce small, local perturbations (microfluctuations).
 
+Two parameters allow exploration of different dynamical regimes:
+
+Decay (toggleable): When enabled, isolated pixels gradually lose reinforcement and return to zero. This removes unsupported structure and increases selective pressure, but it is not strictly necessary for pattern formation — order can still emerge through reinforcement and overload dynamics alone.
+
+Maximum state 𝐾 (slider-controlled): This sets the upper bound on reinforcement. Larger values of 
+𝐾 increase the tolerance and persistence of stabilised structures, allowing deeper memory accumulation before decay or destabilisation occurs.
+
+Frame rate (slider-controlled): This sets the rate at which the frames are updated per second, allowing the user to fine-tune their influence on the system and see the dynamics unfold.
+
 Initially, the system appears noisy and unstable. However, after only a few perturbations, structured regions begin to stabilise. The key mechanism behind this behaviour is rapid entropy fluctuation within local pockets of the grid. Because activity propagates through narrow channels (exactly one-neighbour conditions), certain cells repeatedly come into contact with partially stabilised neighbours. This repeated interaction reinforces specific pathways.
 
 As a result:
