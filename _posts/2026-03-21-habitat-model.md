@@ -39,3 +39,23 @@ Through the integration of empirical context and computational modelling, this w
 Open model in new tab →
 </a>
 </p>
+
+<b> Citizen Science Application </b>
+
+A horticulturalist can use citizen science data—such as bird counts, butterfly surveys, and pollinator monitoring—to identify imbalances within a garden ecosystem and adapt planting or habitat structure accordingly. These datasets provide evidence of which trophic levels are under- or over-represented, allowing targeted intervention.
+
+For example, if pollinator surveys indicate low bee or butterfly abundance despite adequate flowering plants, this may suggest excessive predation or insufficient habitat diversity. A horticulturalist could respond by introducing a wider range of nectar-rich species with staggered flowering periods, while also adding structural features such as hedgerows or log piles to provide refuge and nesting sites.
+
+My model demonstrates this principle dynamically. When pollinator populations decline, higher trophic levels (such as frogs and birds) subsequently decrease due to reduced food availability. Conversely, when predators are absent, pollinators can overpopulate and destabilise the system. The model shows that restoring balance often requires introducing or supporting an additional component—such as trees for shade (reducing thermal stress), water for amphibians, or habitat complexity for refuge.
+
+Thus, citizen science enables evidence-based adjustments, allowing horticulturalists to iteratively design gardens that maintain ecological balance and resilience.
+
+<b> Conclusion </b>
+
+A horticulturalist can use citizen science data—such as bird counts, butterfly surveys, and pollinator monitoring—to identify imbalances within a garden ecosystem and adapt planting or habitat structure accordingly. These datasets provide evidence of which trophic levels are under- or over-represented, allowing targeted intervention.
+
+For example, if pollinator surveys indicate low bee or butterfly abundance despite adequate flowering plants, this may suggest excessive predation or insufficient habitat diversity. A horticulturalist could respond by introducing a wider range of nectar-rich species with staggered flowering periods, while also adding structural features such as hedgerows or log piles to provide refuge and nesting sites.
+
+My model demonstrates this principle dynamically. When pollinator populations decline, higher trophic levels (such as frogs and birds) subsequently decrease due to reduced food availability. Conversely, when predators are absent, pollinators can overpopulate and destabilise the system. The model shows that restoring balance often requires introducing or supporting an additional component—such as trees for shade (reducing thermal stress), water for amphibians, or habitat complexity for refuge.
+
+Thus, citizen science enables evidence-based adjustments, allowing horticulturalists to iteratively design gardens that maintain ecological balance and resilience.
