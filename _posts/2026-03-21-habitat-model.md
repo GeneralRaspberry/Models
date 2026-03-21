@@ -34,7 +34,7 @@ Through the integration of empirical context and computational modelling, this w
     style="border: 1px solid #ddd; 
     border-radius: 8px;"
     loading="lazy"></iframe>
-
+</div>
 <p>
 <a href="/Models/models/habitat_model/" target="_blank">
 Open model in new tab →
