@@ -29,7 +29,7 @@ Through the integration of empirical context and computational modelling, this w
 
 <div style="margin: 2rem 0; width: 100%;">
   <iframe  width="100%"
-    height="900"
+    height="500"
     style="border: 1px solid #ddd; 
     border-radius: 8px;"
     loading="lazy"></iframe>
