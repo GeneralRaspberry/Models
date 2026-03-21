@@ -1,7 +1,6 @@
-
 ---
 title: "Habitat Model: Food Chain Interactions"
-permalink: /habital_model/
+permalink: /habitat_model/
 layout: default
 ---
 
