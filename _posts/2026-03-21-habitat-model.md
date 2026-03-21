@@ -1,4 +1,4 @@
-<img width="662" height="1187" alt="image" src="https://github.com/user-attachments/assets/5682ef13-7d5f-4bbf-b6f5-093e5a31b27b" />
+
 ---
 title: "Habitat Model: Food Chain Interactions"
 permalink: /habital_model/
