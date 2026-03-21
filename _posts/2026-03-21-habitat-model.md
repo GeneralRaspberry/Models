@@ -28,7 +28,11 @@ In addition, tree presence introduces a microclimatic buffering effect within th
 Through the integration of empirical context and computational modelling, this work demonstrates how designed landscapes can function as adaptive ecological systems—supporting biodiversity, informing conservation strategy, and responding dynamically to the pressures of a changing climate.
 
 <div style="margin: 2rem 0; width: 100%;">
-  <iframe src="https://editor.p5js.org/GeneralRaspberry/full/2YU9FqOl9"></iframe>
+  <iframe  width="100%"
+    height="900"
+    style="border: 1px solid #ddd; 
+    border-radius: 8px;"
+    loading="lazy"></iframe>
 
 <p>
 <a href="/Models/models/habitat_model/" target="_blank">
