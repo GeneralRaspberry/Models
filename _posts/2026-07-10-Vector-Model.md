@@ -22,5 +22,7 @@ It is well known that there are associations between vector abundance and the on
 
 This paper seeks to strike light on one particular model of vector abundance, and how it largely determines the onset or extinquishment of an epidemic according to the well established idea of a basic reproduction ratio (Wadkin et al., 2024). This is typically calculated in simulation models by the number of individuals a single plant will infect. However, computation can be expensive, and mechanistic determinations or approximations of this value are invaluable to epidemiological modellers, especially in the context of surveillance.
 
+The model used in this paper assumes a geometric distribution of insect vectors across a field of plants, which has the attractive qualities of being both easy to compute and can include an attractiveness index for compartmental modelling of epidemics. Subsequently, the plant pathogen is transmitted via a gamma dispersal kernel which has the advantage of being flexible in construct and could potentially reflect numerous pathogen species. R0 is calculated using a simple SIR modelling approach. 
+
 
 
