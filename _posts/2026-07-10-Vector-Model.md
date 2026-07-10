@@ -16,7 +16,11 @@ The proliferation of novel vector-borne diseases is directly linked to climate c
 
 Introduction
 
+The onset and proliferation of novel vector-borne diseases in the plant world is increasing (Spence, 2020). Vector-borne pathogens and diseases such as Xylella, Pierce's Disease, and various other grapevine diseases are posing threats globally due to their rapid dissemination through multiple species per pathogen (Castro, 2021). Xylella for example is a severe disease that has a unique relationship with the vectors known as sharpshooter leafhopper (Cicadellidae) and spittlebug (Cercopidae). It threatens many crops globally.
 
+It is well known that there are associations between vector abundance and the onset of a disease epidemic (Donnelly & Gilligan, 2021). Increases in vector abundance due to changes in global temperatures and subsequent climate change have led to new pathways of emergence for plant pathogens via their vectors (Tsai et al., 2022). Furthermore, the dynamics between pathogens and vectors are largely unexplored due to their myriad presentations and complex interactions (Cunniffe et al., 2015). 
+
+This paper seeks to strike light on one particular model of vector abundance, and how it largely determines the onset or extinquishment of an epidemic according to the well established idea of a basic reproduction ratio (Wadkin et al., 2024). This is typically calculated in simulation models by the number of individuals a single plant will infect. However, computation can be expensive, and mechanistic determinations or approximations of this value are invaluable to epidemiological modellers, especially in the context of surveillance.
 
 
 
