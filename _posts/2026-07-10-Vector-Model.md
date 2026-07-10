@@ -54,6 +54,12 @@ k ̅=1/N ∑129_(i=1)^N▒∑129_(j≠i)▒k(θ_ij )
 
 In this landscape (plants = 900, dimensions = 2000m^2), this particular value is estimated at 8.54×10^−5
 
+The vector abundance v_i is assumed to be geometrically distributed across plants and subsequently:
+
+E[v_i ]=1/N_P ×A_i×N_v
+
+
+
 
 
 
