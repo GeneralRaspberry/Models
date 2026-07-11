@@ -140,6 +140,18 @@ R_{\mathrm{eff}}=
 {(N-1+\omega)\gamma}.
 $$
 
+Results
+
+Increasing both vector abundance and the attractiveness index (ω) substantially increased the probability of epidemic establishment. As vector abundance increased from 3,000 to 10,000 vectors, and infected plants became increasingly attractive to vectors (ω=1,10,50), stochastic epidemics became progressively more likely to invade the host population (Figures 1 and 2). Correspondingly, the estimated early exponential growth rate (r) shifted towards larger values with increasing vector abundance, while variability between simulations decreased as epidemics became more deterministic (Figure 2).
+
+An effective reproduction index was derived from the expected vector abundance and the average spatial kernel contribution (
+$$\bar{K}$$). Under the fixed transmission coefficient used throughout this study, the formulation excluding β showed closer agreement with the simulated probability of epidemic establishment than the equivalent expression including β (Figure 3). This suggests that the average spatial connectivity of the host network provides a useful approximation for predicting epidemic invasion in the current model, while the precise role of the transmission coefficient in the analytical approximation remains an area for further investigation.
+
+
+
+Future Work
+
+This work represents an ongoing investigation into analytical epidemic thresholds for stochastic spatial vector-borne disease models. Future work will investigate (i) a formal next-generation matrix derivation of the reproduction number, (ii) the influence of the transmission coefficient (β) on the analytical approximation, and (iii) the effect of alternative landscape structures and dispersal kernels on epidemic invasion thresholds.
 
 
 
