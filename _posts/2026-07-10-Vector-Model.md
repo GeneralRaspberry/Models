@@ -47,8 +47,7 @@ $$
 The infected individuals transition to the recovered state according to the discrete-time equivalent of the continuous removal rate parameter,
 
 $$
-P(\text{removal})
-=
+P_r =
 1-\exp(-\gamma\Delta t).
 $$
 
