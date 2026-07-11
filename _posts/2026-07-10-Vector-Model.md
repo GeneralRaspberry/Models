@@ -56,13 +56,13 @@ The time step in this model is determined by Gillespie's algorithm, with transit
 $$
 \Delta_{SI}
 \sim
-\operatorname{Poisson}(\lambda S\tau),
+\{Poisson}(\lambda S\tau),
 $$
 
 $$
 \Delta_{IR}
 \sim
-\operatorname{Poisson}(\gamma I\tau).
+\{Poisson}(\gamma I\tau).
 $$
 
 The total force of infection is
