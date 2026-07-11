@@ -1,5 +1,5 @@
 ---
-title: "Vector-borne Pathogens: A novel approach to calculating $$\R_eff$$"
+title: "Vector-borne Pathogens: A novel approach to calculating $$R_eff$$"
 permalink: /Vector_Model/
 layout: default
 ---
