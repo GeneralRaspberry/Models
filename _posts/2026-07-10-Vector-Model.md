@@ -147,7 +147,7 @@ Increasing both vector abundance and the attractiveness index (ω) substantially
 An effective reproduction index was derived from the expected vector abundance and the average spatial kernel contribution (
 $$\bar{K}$$). Under the fixed transmission coefficient used throughout this study, the formulation excluding β showed closer agreement with the simulated probability of epidemic establishment than the equivalent expression including β (Figure 3). This suggests that the average spatial connectivity of the host network provides a useful approximation for predicting epidemic invasion in the current model, while the precise role of the transmission coefficient in the analytical approximation remains an area for further investigation.
 
-
+![Epidemic Growth Curves](models/Epidemic Growth Curves for 3x3 combinations omegavector.svg)
 
 Future Work
 
