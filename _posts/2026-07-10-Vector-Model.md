@@ -49,17 +49,9 @@ $$
 
 The time step in this model is determined by Gillespie's algorithm, with transitions approximated using Poisson random variables,
 
-$$
-\Delta_{SI}
-\sim
-\{Poisson}(\lambda S\tau)
-$$
+$$\Delta_{SI} \sim \mathrm{Poisson}(\lambda S\tau)$$
 
-$$
-\Delta_{IR}
-\sim
-\{Poisson}(\gamma I\tau)
-$$
+$$\Delta_{IR} \sim \mathrm{Poisson}(\gamma I\tau)$$
 
 The total force of infection is
 
