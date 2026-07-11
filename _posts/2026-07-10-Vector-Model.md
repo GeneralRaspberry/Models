@@ -162,7 +162,7 @@ In addition, vector abundance per plant is a critical component of Reff, demonst
 
 Overall the growth rates demonstrated what was to be expected, increasing the force of infection through additional vectors and shaping preference led to more deterministic outcomes as epidemics became more inevitable (Figures 2 and 3). Further investigation of these growth rates with respect to surveillance efforts could be useful in future management strategies (Parnell et al., 2015).
 
-Overall this study indicates that significant progress can be made in the estimation of epidemic establishment using epidemiologically derived equations to determine epidemic dynamics in a stochastic spatially-explicit modelling approach, and hence real-world application of these biological principles could assist scientists and relevant decision makers in the future, as pests and novel pathogens become more prevalent.
+Overall this study indicates that significant progress can be made in the estimation of epidemic establishment using epidemiologically derived equations to determine epidemic dynamics in a stochastic spatially-explicit modelling approach, and hence real-world application of these biological principles could assist scientists and relevant decision makers in the future, as pests and novel pathogens become more prevalent. This work demonstrates that epidemic establishment in a stochastic spatial vector-borne model can be approximated using a simple analytical threshold derived from expected vector abundance and landscape connectivity, providing a promising direction for future theoretical and surveillance research.
 
 
 Future Work
