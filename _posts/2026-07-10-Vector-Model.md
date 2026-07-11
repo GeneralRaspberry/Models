@@ -20,7 +20,7 @@ The onset and proliferation of novel vector-borne diseases in the plant world is
 
 It is well known that there are associations between vector abundance and the onset of a disease epidemic (Donnelly & Gilligan, 2021). Increases in vector abundance due to changes in global temperatures and subsequent climate change have led to new pathways of emergence for plant pathogens via their vectors (Tsai et al., 2022). Furthermore, the dynamics between pathogens and vectors are largely unexplored due to their myriad presentations and complex interactions (Cunniffe et al., 2015). 
 
-This paper seeks to strike light on one particular model of vector abundance, and how it largely determines the onset or extinquishment of an epidemic according to the well established idea of a basic reproduction ratio (Wadkin et al., 2024). This is typically calculated in simulation models by the number of individuals a single plant will infect. However, computation can be expensive, and mechanistic determinations or approximations of this value are invaluable to epidemiological modellers, especially in the context of surveillance.
+This paper seeks to strike light on one particular model of vector abundance, and how it largely determines the onset or extinquishment of an epidemic according to the well established idea of a basic reproduction ratio (Wadkin et al., 2024). This is typically calculated in simulation models by the number of individuals a single plant will infect during the infection period. However, computation can be expensive, and mechanistic determinations or approximations of this value are invaluable to epidemiological modellers, especially in the context of surveillance.
 
 The model used in this paper assumes a geometric distribution of insect vectors across a field of plants, which has the attractive qualities of being both easy to compute and can include an attractiveness index for compartmental modelling of epidemics. Subsequently, the plant pathogen is transmitted via a gamma dispersal kernel which has the advantage of being flexible in construct and could potentially reflect numerous pathogen species. R0 is calculated using a simple SIR modelling approach. 
 
@@ -54,9 +54,33 @@ k ̅=1/N ∑129_(i=1)^N▒∑129_(j≠i)▒k(θ_ij )
 
 In this landscape (plants = 900, dimensions = 2000m^2), this particular value is estimated at 8.54×10^−5
 
-The vector abundance v_i is assumed to be geometrically distributed across plants and subsequently:
+The vector abundance v_i is assumed to be geometrically distributed across plants and subsequently, assuming one infective:
 
-E[v_i ]=1/N_P ×A_i×N_v
+E[v_i ]=(N_v ω)/(N−1+ω),
+
+Where the attractiveness index is a normalisation constant and:
+
+■( S=1@ I=ω@R=0)
+
+Consequently:
+
+Λ_i=(βN_v ω_i k ̅)/(N−1+ω)
+
+Following the logic of a typical SIR model:
+
+dI/dt=(Λ− γ)I
+
+Assuming early exponential growth:
+
+r > 0
+
+(Λ− γ) > 0
+
+Λ > γ
+
+Hence, R0 (or approximate Reff):
+
+R_0=(βN_v ω_i k ̅)/((N−1+ω) γ)
 
 
 
