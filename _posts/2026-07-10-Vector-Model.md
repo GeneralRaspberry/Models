@@ -4,7 +4,7 @@ permalink: /Vector_Model/
 layout: default
 ---
 
-Vector-borne Pathogens: A novel approach to calculating R0
+Vector-borne Pathogens: A novel approach to calculating the effective reproduction ratio
 
 Dr Thomas Taylor
 No Affiliation
