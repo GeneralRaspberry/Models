@@ -67,9 +67,9 @@ $$
 
 The total force of infection is
 
-$$
-\Lambda_t
-=
+
+
+$$ \Lambda_t =
 \beta
 \sum_{j\in S}
 \sum_{i\in I}
