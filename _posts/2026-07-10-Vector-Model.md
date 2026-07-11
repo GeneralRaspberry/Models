@@ -152,11 +152,43 @@ Figure 2. Density distributions of the estimated early exponential growth rate (
 
 Figure 3. Relationship between the derived epidemic threshold index and the simulated probability of epidemic establishment. The left panel excludes the transmission coefficient (β), whereas the right panel includes it. Under the fixed transmission coefficient used throughout this study, the unscaled threshold index exhibited closer numerical agreement with the simulated establishment probabilities, suggesting that average landscape connectivity and vector abundance capture much of the threshold behaviour of the model. Further work is required to determine the theoretical role of β in this approximation.
 
+Discussion 
+
+This paper sought to investigate the relationship between vector abundance, vector preference and epidemic dynamics across a homogenous landscape. The results indicated that increasing vector abundance and attractiveness of infected plants increased the likelihood of epidemic establishment. The derivation of Reff shows that the transmission coefficient of the kernel, or the total transmission potential per vector, is a critical component of determining epidemic progression. Yet the results indicated that the removal of $$\beta$$ from the Reff equation, drastically improved the accuracy of prediction of whether an epidemic would establish (Figure 3). Previous research has indicated that weather patterns influence the establishment of pests and vector-borne pathogens (Molina-Guzmán et al., 2022). If it is possible to account for climatic conditions within a vector model that uses transmission coefficient as the transferable component of weather indices, then it is critical that the role of transmission coefficient within this model and derivation are fully understood. Therefore, further investigation into the role of $$\beta$ in this transmission model will be the next stage. 
+
+$$\bar{K}$$ is the measured index of epidemiological potential before vector abundance per plant was accounted for. This value, within the context of spatial kernels, is of interest because it captures the spatial connectivity and subsequent transmission contact potential in an effective parameter value. With the future inclusion of landscape heterogeniety, having an index value that accounts for landscape connectivity within predictions of epidemic establishment, and subsequent surveillance modelling efforts, is essential and to date has not been described as such.
+
+In addition, vector abundance per plant is a critical component of Reff, demonstrating that predictions of higher Reff with increased vector abundance were accurate in predicting epidemic establishment (Figure 1, 2 and 3). Similarly, plant attractiveness was also a critical component in determining the likelihood of epidemic establishment. Moving forward, these parameters should be extensively investigated to provide an effective range of realistic values, thereby further showing their importance in determining epidemic dynamics within stochastic spatially-explicit scenarios. In effect, parameterisation of real world scenarios would be useful, as a validation technique to compare measurements of vector abundance and preference, and whether real epidemics would be established. Though this study used the expected mean of vector abundance, it is not unforeseable that estimated values of real scientific data would arrive at the same conclusion.
+
+Overall the growth rates demonstrated what was to be expected, increasing the force of infection through additional vectors and shaping preference led to more deterministic outcomes as epidemics became more inevitable (Figures 2 and 3). Further investigation of these growth rates with respect to surveillance efforts could be useful in future management strategies (Parnell et al., 2015).
+
+Overall this study indicates that significant progress can be made in the estimation of epidemic establishment using epidemiologically derived equations to determine epidemic dynamics in a stochastic spatially-explicit modelling approach, and hence real world application of these biological principles could assist scientists and relevant decision makers in the future, as pests and novel pathogens become more prevelant.
+
 
 Future Work
 
 This work represents an ongoing investigation into analytical epidemic thresholds for stochastic spatial vector-borne disease models. Future work will investigate (i) a formal next-generation matrix derivation of the reproduction number, (ii) the influence of the transmission coefficient (β) on the analytical approximation, and (iii) the effect of alternative landscape structures and dispersal kernels on epidemic invasion thresholds.
 
+References
 
+Spence, N. J. (2020). How the global threat of pests and diseases impacts plants, people, and the planet. Plants, People, Planet, 2(5), 430–431.
 
+Sicard, A., Zeilinger, A. R., Vanhove, M., Schartel, T. E., Beal, D. J., Daugherty, M. P., & Almeida, R. P. P. (2018). Xylella fastidiosa: A re-emerging plant pathogen that threatens crops globally. New Phytologist, 219(4), 1195–1207.
+
+Donnelly, R., & Gilligan, C. A. (2022). The role of pathogen-mediated insect superabundance in the East African emergence of a plant virus. Journal Name, Volume(Issue), pages.
+
+Jones, R. A. C. (2016). Perspectives on plant virus diseases in a climate change scenario of elevated temperatures. Current Opinion in Virology, 17, 1–7.
+
+Cunniffe, N. J., Koskella, B., Metcalf, C. J. E., Parnell, S., Gottwald, T. R., & Gilligan, C. A. (2015). Thirteen challenges in modelling plant diseases. Epidemics, 10, 6–10.
+
+Neri, F. M., Gibson, G. J., & Gilligan, C. A. (2011). Estimating the reproduction number, R
+0, from individual-based models of tree disease spread. Journal of Theoretical Biology, 270(1), 26–36.
+
+Eisen, L., & Eisen, R. J. (2011). Models of spatial analysis for vector-borne diseases studies: A systematic review. Infectious Disease Modelling, Journal details required.
+
+Parnell, S., Gottwald, T. R., Riley, T., van den Bosch, F., & Gilligan, C. A. (2012). Early detection surveillance for an emerging plant pathogen: A rule of thumb to predict prevalence at first discovery. Proceedings of the Royal Society B: Biological Sciences, 279(1733), 3408–3414.
+
+Code Repository
+
+The scripts for this study are available at https://github.com/GeneralRaspberry/Vector-borne-disease-transmission-1
 
