@@ -147,9 +147,16 @@ Increasing both vector abundance and the attractiveness index (ω) substantially
 An effective reproduction index was derived from the expected vector abundance and the average spatial kernel contribution (
 $$\bar{K}$$). Under the fixed transmission coefficient used throughout this study, the formulation excluding β showed closer agreement with the simulated probability of epidemic establishment than the equivalent expression including β (Figure 3). This suggests that the average spatial connectivity of the host network provides a useful approximation for predicting epidemic invasion in the current model, while the precise role of the transmission coefficient in the analytical approximation remains an area for further investigation.
 
-<img width="832" height="713" alt="image" src="https://github.com/user-attachments/assets/cd76470a-0fea-46f6-99af-851e6e9b09a6" />
+<img width="836" height="713" alt="image" src="https://github.com/user-attachments/assets/f7c9f2c3-876b-46b2-b6d2-f0a8a53d8908" />
+Figure 1. Simulated epidemic trajectories for 250 stochastic realizations across nine combinations of vector abundance (N
+v
+	​
 
-<img width="847" height="717" alt="image" src="https://github.com/user-attachments/assets/bc364a84-dafc-451b-a3d0-5df7a561673c" />
+=3000,5000, and 10000) and attraction index (ω=1,10, and 50). Green, grey and red lines represent susceptible, infected and removed hosts, respectively. Increasing vector abundance and attraction to infected plants substantially increased both the probability of epidemic establishment and the final epidemic size.
+<img width="860" height="715" alt="image" src="https://github.com/user-attachments/assets/ce7bd5e5-8251-4895-9f0f-42c97a4b1bdb" />
+Figure 2. Density distributions of the estimated early exponential growth rate (r) for each parameter combination. Increasing vector abundance and attraction index shifts the distribution towards larger growth rates while reducing stochastic variability, indicating increasingly reliable epidemic establishment.
+<img width="953" height="816" alt="image" src="https://github.com/user-attachments/assets/45034cb7-bc0f-4431-ac66-51885331e729" />
+Figure 3. Relationship between the derived epidemic threshold index and the simulated probability of epidemic establishment. The left panel excludes the transmission coefficient (β), whereas the right panel includes it. Under the fixed transmission coefficient used throughout this study, the unscaled threshold index exhibited closer numerical agreement with the simulated establishment probabilities, suggesting that average landscape connectivity and vector abundance capture much of the threshold behaviour of the model. Further work is required to determine the theoretical role of β in this approximation.
 
 
 Future Work
