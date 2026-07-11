@@ -129,7 +129,7 @@ An effective reproduction index is therefore approximated by
 $$
 R_{\mathrm{eff}}=
 \frac{\beta N_v\omega\bar{K}}
-{(N-1+\omega)\gamma}.
+{(N_p-1+\omega)\gamma}.
 $$
 
 Results
